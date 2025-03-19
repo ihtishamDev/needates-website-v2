@@ -17,7 +17,7 @@ const Topbar = () => {
     <nav className="w-full bg-white shadow-md py-4 sm:py-5">
       <div className="flex justify-between items-center h-full  container px-2 sm:px-8">
         <Link href="/">
-          <Image src="/images/logo.png" alt="logo" width={100} height={50} />
+          <Image className=" sm:w-30 w-20" src="/images/logo.png" alt="logo" width={100} height={50} />
         </Link>
 
         <div className="hidden sm:flex space-x-4">

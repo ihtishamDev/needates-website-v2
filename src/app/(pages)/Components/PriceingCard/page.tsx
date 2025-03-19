@@ -65,7 +65,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
           <span>Guaranteed responses within 24 hours to requests</span>
         </li>
       </ul>
-      <div className="mt-auto">
+      <div className="mt-35">
         <button type="button" className="text-white bg-red-800 font-medium rounded-full p-3 py-2 flex items-center justify-between w-full">
           <span className="flex-1 text-left">Get Started</span>
           <svg className="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

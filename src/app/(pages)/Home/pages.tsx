@@ -12,10 +12,10 @@ const Home = () => {
       >
         <Topbar />
         <div className="container text-center flex flex-col items-center justify-center h-full px-4">
-          <h1 className="sm:text-5xl text-xl sm:leading-tight text-white font-bold">
+          <h1 className="sm:text-5xl text-sm sm:leading-tight text-white font-bold">
             Turn Empty Dates into <br /> Profitable Opportunities
           </h1>
-          <p className="mb-8 text-x sm:text-xl font-normal text-gray-200 sm:px-16 leading-relaxed">
+          <p className="mb-8 text-sm sm:text-xl font-normal text-gray-200 sm:px-16 leading-relaxed">
             The first and only platform connecting convention hotels with
             planners flexible <br /> on dates and locations.
           </p>
