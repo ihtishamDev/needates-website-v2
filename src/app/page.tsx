@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Dashboard from "./(pages)/Dashboard/pages";
-
 export default function Home() {
   return (
     <div className="grid gap-10 font-[family-name:var(--font-geist-sans)]">

@@ -12,35 +12,35 @@ const Topbar = () => {
   return (
     <nav className="w-full bg-white shadow-md py-4 sm:py-5">
       <div className="flex justify-between items-center h-full  container px-2 sm:px-8">
-        <a href="/">
+        <Link href="/">
           <Image src="/images/logo.png" alt="logo" width={100} height={50} />
-        </a>
+        </Link>
 
         <div className="hidden sm:flex space-x-4">
-          <a
+          <Link
             href="/"
             className="hover:text-red-900 p-2 sm:p-4 text-lg sm:text-xl"
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="Map"
             className="hover:text-red-900 p-2 sm:p-4 text-lg sm:text-xl"
           >
             Map
-          </a>
-          <a
+          </Link>
+          <Link
             href="Pricing"
             className="hover:text-red-900 p-2 sm:p-4 text-lg sm:text-xl"
           >
             Pricing
-          </a>
-          <a
+          </Link>
+          <Link
             href="ContactUs"
             className="hover:text-red-900 p-2 sm:p-4 text-lg sm:text-xl"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
         <div className="flex sm:gap-6 ">
           <button className="text-red-900 sm:py-2 py-2  px-2 sm:px-6  sm:mr-5 mr-1 px border-2 rounded-full sm:w-auto cursor-pointer">
@@ -88,7 +88,7 @@ export default Topbar;
 
 // "use client";
 // import Image from "next/image";
-// import Link from "next/link";
+// import Link from "next/Link";
 // import { useState } from "react";
 // import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 

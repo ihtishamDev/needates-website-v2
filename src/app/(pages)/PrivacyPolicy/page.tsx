@@ -9,6 +9,8 @@ const PrivacyPolicy = () => {
         {/* <p className="font-bold mt-5 text-xl">Schesti Technologies, Inc.</p>
         <address>5109 Hollyridge Dr, St 102, Raleigh, NC, USA 27612 </address> */}
         {/* <p>Governing Law: North Carolina, USA</p> */}
+        {/* <p>We respect your privacy&#39;s protection.</p> */}
+
         <p className="font-bold">Effective Date: March 18 2025.</p>
       </div>
       <hr className="text-gray-200" />
