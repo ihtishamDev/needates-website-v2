@@ -42,13 +42,31 @@ const Topbar = () => {
             Contact Us
           </Link>
         </div>
+
         <div className="flex sm:gap-6 ">
-          <button className="text-red-900 sm:py-2 py-2  px-2 sm:px-6  sm:mr-5 mr-1 px border-2 rounded-full sm:w-auto cursor-pointer">
-            Hotel login
-          </button>
-          <button className="bg-red-900 hover:p text-white py-2 sm:py-3 px-2 sm:px-6 rounded-full cursor-pointer ">
-            Planner login
-          </button>
+          <div className="flex sm:gap-6">
+            {/* Hotel Login Button */}
+            <Link
+              href="https://hotel.needates.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="text-red-900 sm:py-2 py-2 px-2 sm:px-6 sm:mr-5 mr-1 border-2 rounded-full sm:w-auto cursor-pointer">
+                Hotel login
+              </button>
+            </Link>
+
+            {/* Planner Login Button */}
+            <Link
+              href="https://planner.needates.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-red-900 hover:p text-white py-2 sm:py-3 px-2 sm:px-6 rounded-full cursor-pointer">
+                Planner login
+              </button>
+            </Link>
+          </div>
         </div>
         <div onClick={handleNav} className="sm:hidden cursor-pointer">
           <AiOutlineMenu size={25} />

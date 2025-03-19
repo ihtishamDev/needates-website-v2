@@ -42,7 +42,7 @@ const ContactUs = () => {
           </div>
 
           {/* form */}
-          <div className="bg-red-100 p-5 sm:w-2/5 ">
+          <div className="bg-red-100 p-5 sm:w-2/5 mb-15">
             <div className="mb-5">
               <label
                 htmlFor="Name"
@@ -142,7 +142,7 @@ const ContactUs = () => {
       </div>
     </section> */}
 
-      <div className="mt-20">
+      <div className="">
         <Footer />
       </div>
     </div>

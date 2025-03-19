@@ -5,8 +5,8 @@ interface PricingCardProps {
 }
 const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
   return (
-    <div className="j">
-       <div className="flex flex-col md:flex-row md:justify-center items-center min-h-screen  gap-x-12  w-full pl-8 sm:px-2">
+    <div className="">
+       <div className="flex flex-col md:flex-row md:justify-center items-center py-15  gap-x-12  sm:px-2">
       {/* First Card */}
       <div className="w-full max-w-[90%] md:max-w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 text-left   mt-10">
         <h1 className="text-4xl font-bold text-red-900">

@@ -24,7 +24,7 @@ const Pricing = () => {
             with one of our options.
           </p>
         </div>
-        <div className="sm:mt-10 mt-10">
+        <div className="">
           <PriceingCard/>
         </div>
         
