@@ -3,9 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { usePathname } from "next/navigation";
+
 
 const Topbar = () => {
   const [menuOpen, setmenuOpen] = useState(false);
+  const pathname = usePathname();
+
   const handleNav = () => {
     setmenuOpen(!menuOpen);
   };
@@ -17,6 +21,40 @@ const Topbar = () => {
         </Link>
 
         <div className="hidden sm:flex space-x-4">
+      <Link
+        href="/"
+        className={`p-2 sm:p-4 text-lg sm:text-xl ${
+          pathname === "/" ? "text-red-900 " : "hover:text-red-900"
+        }`}
+      >
+        Home
+      </Link>
+      <Link
+        href="/Map"
+        className={`p-2 sm:p-4 text-lg sm:text-xl ${
+          pathname === "/Map" ? "text-red-900 f" : "hover:text-red-900"
+        }`}
+      >
+        Map
+      </Link>
+      <Link
+        href="/Pricing"
+        className={`p-2 sm:p-4 text-lg sm:text-xl ${
+          pathname === "/Pricing" ? "text-red-900 " : "hover:text-red-900"
+        }`}
+      >
+        Pricing
+      </Link>
+      <Link
+        href="/ContactUs"
+        className={`p-2 sm:p-4 text-lg sm:text-xl ${
+          pathname === "/ContactUs" ? "text-red-900 " : "hover:text-red-900"
+        }`}
+      >
+        Contact Us
+      </Link>
+    </div>
+        {/* <div className="hidden sm:flex space-x-4">
           <Link
             href="/"
             className="hover:text-red-900 p-2 sm:p-4 text-lg sm:text-xl"
@@ -41,7 +79,7 @@ const Topbar = () => {
           >
             Contact Us
           </Link>
-        </div>
+        </div> */}
 
         <div className="flex sm:gap-6 ">
           <div className="flex sm:gap-6">
