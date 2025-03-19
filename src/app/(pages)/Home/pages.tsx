@@ -7,15 +7,15 @@ const Home = () => {
   return (
     <div className=" ">
       <section
-        className="sm:h-screen  bg-center bg-no-repeat bg-cover bg-blend-multiply"
+        className="sm:h-screen flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover bg-blend-multiply"
         style={{ backgroundImage: "url(/images/dashboard.png)" }}
       >
         <Topbar />
-        <div className="container lg:py-30 text-center py-30">
-          <h1 className="sm:mb-4 sm:text-5xl text-2xl sm:leading-tight text-white font-bold">
+        <div className="container text-center flex flex-col items-center justify-center h-full px-4">
+          <h1 className="sm:text-5xl text-xl sm:leading-tight text-white font-bold">
             Turn Empty Dates into <br /> Profitable Opportunities
           </h1>
-          <p className="mb-8 text-xl sm:text-xl font-normal text-gray-200 sm:px-16  leading-relaxed">
+          <p className="mb-8 text-x sm:text-xl font-normal text-gray-200 sm:px-16 leading-relaxed">
             The first and only platform connecting convention hotels with
             planners flexible <br /> on dates and locations.
           </p>
@@ -39,10 +39,10 @@ const Home = () => {
       </section>
 
       <section
-        className="bg-center bg-no-repeat "
+        className="items-center bg-center bg-no-repeat bg-cover bg-blend-multiply"
         style={{ backgroundImage: "url(/images/dashboard1.png)" }}
       >
-        <div className="container text-center py-56">
+        <div className="container text-center py-56 w-full">
           <h1 className="mb-4 font-bold tracking-tight leading-none text-white sm:text-5xl text-3xl">
             How It Works
           </h1>
@@ -53,9 +53,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sm:mt-20">
+      <section className="sm:mt-25 mt-20">
         <div className="sm:flex container">
-          <div className=" ">
+          <div className="px-4 ">
             <Image
               src="/images/dashboard2.png"
               alt="logo"

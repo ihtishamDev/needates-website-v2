@@ -6,7 +6,7 @@ const Pricing = () => {
     <div>
       <Topbar />
       <section
-        className="bg-center bg-no-repeat "
+        className="bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: "url(/images/Pricing.png)" }}
       >
         <div className="container text-center py-30">

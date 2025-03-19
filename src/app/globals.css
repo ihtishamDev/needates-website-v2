@@ -34,8 +34,8 @@
   
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .ipad-bg {
-    height: 90vh; /* Adjust as needed */
+    height: 90vh; 
   }
-}
+} */

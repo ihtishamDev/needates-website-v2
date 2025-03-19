@@ -28,7 +28,7 @@ const Map = () => {
     <div>
       <Topbar />
       <section
-        className="bg-center bg-no-repeat "
+        className="items-center bg-center bg-no-repeat bg-cover bg-blend-multiply "
         style={{ backgroundImage: "url(/images/Mappage.png)" }}
       >
         <div className="container text-center py-30">

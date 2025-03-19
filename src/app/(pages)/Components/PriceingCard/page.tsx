@@ -5,9 +5,10 @@ interface PricingCardProps {
 }
 const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-stretch min-h-screen gap-y-6 md:gap-x-10 w-full px-4">
+    <div className="j">
+       <div className="flex flex-col md:flex-row md:justify-center items-center min-h-screen  gap-x-12  w-full pl-8 sm:px-2">
       {/* First Card */}
-      <div className="w-full max-w-[90%] md:max-w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 text-left dark:bg-gray-800 dark:border-gray-700 h-full self-stretch">
+      <div className="w-full max-w-[90%] md:max-w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 text-left   mt-10">
         <h1 className="text-4xl font-bold text-red-900">
           {pricing || "$450"}
           <span className="text-sm text-gray-600 font-normal">
@@ -36,7 +37,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
             </span>
           </li>
         </ul>
-        <div className="sm:mt-35.5 mt-20">
+        <div className="sm:mt-35.5 mt-25">
           
           <button
             type="button"
@@ -64,7 +65,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
       
 
       {/* Second Card */}
-      <div className="w-full max-w-[90%] md:max-w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 text-left dark:bg-gray-800 dark:border-gray-700 h-full self-stretch">
+      <div className="w-full max-w-[90%] md:max-w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 text-left  mt-10">
         <h1 className="text-4xl font-bold text-red-900">
           {pricing || "Free"}
           <span className="text-sm text-gray-600 font-normal">
@@ -93,7 +94,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
             <span>Guaranteed responses within 24 hours to requests</span>
           </li>
         </ul>
-        <div className="sm:mt-26 mt-20">
+        <div className="sm:mt-26 mt-25">
           <button
             type="button"
             className="text-white bg-red-800 font-medium rounded-full p-3 py-2 flex items-center justify-between w-full "
@@ -118,6 +119,8 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
         </div>
       </div>
     </div>
+    </div>
+   
   );
 };
 
