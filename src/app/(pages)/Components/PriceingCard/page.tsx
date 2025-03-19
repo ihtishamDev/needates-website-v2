@@ -36,7 +36,8 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
             </span>
           </li>
         </ul>
-        <div className="sm:mt-30 mt-20">
+        <div className="sm:mt-35.5 mt-20">
+          
           <button
             type="button"
             className="text-white bg-red-800 font-medium rounded-full p-3 py-2 flex items-center justify-between w-full"
@@ -60,6 +61,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
           </button>
         </div>
       </div>
+      
 
       {/* Second Card */}
       <div className="w-full max-w-[90%] md:max-w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 text-left dark:bg-gray-800 dark:border-gray-700 h-full self-stretch">
