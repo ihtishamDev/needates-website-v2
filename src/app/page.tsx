@@ -1,9 +1,10 @@
-import Dashboard from "./(pages)/Dashboard/pages";
-export default function Home() {
+import Home from "./(pages)/Home/pages";
+
+export default function Dashboard() {
   return (
     <div className="grid gap-10 font-[family-name:var(--font-geist-sans)]">
      
-      <Dashboard/>
+      <Home/>
     </div>
   );
 }
