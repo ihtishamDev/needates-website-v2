@@ -18,7 +18,7 @@ const Pricing = () => {
       <section className="container text-center py-15 sm:py-20">
         <div className="tracking-tight leading-loose">
           <h1 className="sm:text-4xl font-bold sm:mb-4">Join the Needates Community</h1>
-          <p className="sm:text-x ">
+          <p className="sm:text-x px-7">
             Are you a planner in search of need date availability? <br />Is your hotel
             looking to boost your need dates to a targeted audience?<br /> Sign up
             with one of our options.

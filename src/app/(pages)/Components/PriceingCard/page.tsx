@@ -45,9 +45,9 @@ const PricingCard: React.FC<PricingCardProps> = ({ pricing }) => {
     <div className="w-full max-w-[90%] md:max-w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 text-left mt-10 flex flex-col">
       <h1 className="text-4xl font-bold text-red-900">
         {pricing || "Free"}
-        <span className="text-sm text-gray-600 font-normal">
+        {/* <span className="text-sm text-gray-600 font-normal">
           {" "} / per month billed annually
-        </span>
+        </span> */}
       </h1>
       <p className="text-2xl font-bold mt-5">For Planners:</p>
       <hr className="text-gray-400 mt-3" />

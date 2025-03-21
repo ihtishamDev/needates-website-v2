@@ -19,9 +19,9 @@ const ContactUs = () => {
           </h1>
         </div>
       </section>
-      <section className="p-6 sm:mt-25">
+      <section className="p-6 sm:mt-25 mt-15 mb-20">
         <div className="container sm:flex justify-between sm:px-30">
-          <div className="py-20 ">
+          <div className="py-10 ">
             <h2 className="text-4xl font-bold text-black mb-4">GET IN TOUCH</h2>
             <div className="space-y-6">
               <div className="flex items-start gap-3">
@@ -42,7 +42,7 @@ const ContactUs = () => {
           </div>
 
           {/* form */}
-          <div className="bg-red-100 p-5 sm:w-2/5 mb-15">
+          <div className="bg-red-100 p-5 sm:w-2/5 ">
             <div className="mb-5">
               <label
                 htmlFor="Name"
