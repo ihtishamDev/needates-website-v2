@@ -169,7 +169,7 @@ const ContactUs = () => {
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+  console.log("shami")
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
   
